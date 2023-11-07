@@ -33,5 +33,10 @@ func Init() (err error) {
 }
 
 func Close() {
-	_ = db.Close()
+	if db != nil {
+		_ = db.Close()
+	} else {
+		fmt.Println("database is nil")
+	}
+
 }
