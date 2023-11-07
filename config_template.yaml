@@ -1,0 +1,27 @@
+name: web_app
+mode: dev
+version: 1.0.0
+port: 8080
+
+log:
+  level: debug
+  filename: web_app.log
+  max_size: 10
+  max_backups: 10
+  max_age: 7
+
+mysql:
+  host:
+  port:
+  user:
+  password:
+  database:
+  max_conns:
+  max_idle_conns:
+
+redis:
+  host:
+  port:
+  password:
+  db:
+  pool_size:
