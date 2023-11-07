@@ -8,7 +8,7 @@ MVC 模式代表 Model-View-Controller（模型-视图-控制器） 模式。这
 - **View（视图）** - 视图代表模型包含的数据的可视化。
 - **Controller（控制器）** - 控制器作用于模型和视图上。它控制数据流向模型对象，并在数据变化时更新视图。它使视图与模型分离开。
 
-<img src="https://mary-aliyun-img.oss-cn-beijing.aliyuncs.com/typora/202311061706918.png" alt="img" style="zoom:40%;" />
+<img src="https://mary-aliyun-img.oss-cn-beijing.aliyuncs.com/typora/202311072004898.png" alt="image-20231107200428822" style="zoom:60%;" />
 
 
 ### 1.2 CLD模式
